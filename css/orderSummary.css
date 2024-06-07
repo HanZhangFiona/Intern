@@ -1,0 +1,277 @@
+.model1 h1 {
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+.model1Content table:nth-of-type(1) {
+    border: 5px solid #F3DFE6;
+    border-spacing: 0 50px;
+}
+
+.model1Content table:nth-of-type(2) {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    border-spacing: 0 50px;
+}
+
+.model1Content table:nth-of-type(2) tr td:nth-of-type(2) {
+    width: 500px;
+    text-align: left;
+}
+
+.model1Content table:nth-of-type(2) a {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.model1Content table a.active {
+    color: #fff;
+    background-color: #8F55F8;
+}
+
+.model1Content td>img {
+    width: 150px;
+    height: 170px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.model1Content table {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.model1Content table thead {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.model1Content table thead td:nth-of-type(1) {
+    text-align: center;
+}
+
+.model1Content tr td:nth-of-type(1) {
+    font-size: 20px;
+}
+
+.model1Content tr td:nth-of-type(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.model1Content tr td:nth-of-type(3) {
+    width: 20%;
+    font-size: 20px;
+}
+
+
+.model1Content td span {
+    font-weight: bold;
+}
+
+.number {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 50px;
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.number a {
+    width: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+}
+
+.number input {
+    border: none;
+    outline: none;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    max-width: 50px;
+    background-color: transparent;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.codeCard {
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    width: 100%;
+    line-height: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.codeCard::placeholder {
+    color: #A58AD8;
+}
+
+.model2 h1 {
+    text-align: center;
+}
+
+.model2>div {
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.model2>div a {
+    width: 120px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model2>div a img {
+    width: fit-content;
+}
+
+.model3 .model3Title {
+    position: relative;
+    margin: 50px 0 30px;
+}
+
+.model3 .model3Title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #A58AD8;
+    z-index: -1;
+}
+
+.model3 .model3Title p {
+    width: 200px;
+    line-height: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.model3>p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.model3>input,
+.inputBox input,
+.model3 select {
+    display: block;
+    width: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    margin: 20px 0 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.model3 select {
+    color: #757575;
+}
+
+.inputBox>div {
+    width: 30%;
+}
+
+.remember {
+    background-color: #D9D9D9;
+    margin: 20px 0 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #757575;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+}
+
+.total {
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.payNew {
+    margin: 20px 0 10px;
+    display: block;
+    background-color: #8F55F8;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lalezar';
+    letter-spacing: 5px;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width:550px) {
+
+    .number input,
+    .number a {
+        font-size: 12px;
+    }
+
+    .model1Content table td {
+        font-size: 12px !important;
+    }
+
+    .model1Content td>img {
+        width: 80px;
+    }
+}
+
+@media (max-width:912px) {
+    .model1Content table {
+        padding: 0;
+    }
+
+    .number {
+        width: 60px;
+    }
+
+    /* .number input,
+    .number a {
+        font-size: 12px;
+    } */
+
+    .number input {
+        max-width: 30px;
+    }
+}

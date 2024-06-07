@@ -1,0 +1,86 @@
+.model2 {
+    margin-top: 100px;
+}
+
+.model2Title {
+    font-family: 'Roboto-Bold';
+    font-size: 34px;
+}
+
+.model2List {
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.model2ItemLink {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.model2Item {
+    display: block;
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+
+.model2ItemImg {
+    position: relative;
+}
+
+.model2ItemImg>img,
+.model2ItemImg .model2ItemLink> img {
+    display: block;
+    max-width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.model2ItemImg .like {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+
+.model2Item .goodsInfo {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.model2Item .goodsInfo a {
+    color: #000;
+}
+
+.model2Item .goodsInfo span {
+    font-weight: bold;
+}
+
+.goodsPrice {
+    color: #8F55F8;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.paging {
+    display: flex;
+    justify-content: center;
+}
+
+.paging a {
+    width: 30px;
+    text-align: center;
+    color: #A992D7;
+    font-weight: bold;
+}
+
+
+@media (max-width:912px) {
+    .model2Item {
+        width: 45%;
+    }
+
+}

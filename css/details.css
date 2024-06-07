@@ -1,0 +1,228 @@
+.model1 {
+    margin-top: 50px;
+}
+
+.detailsImg {
+    max-width: 400px;
+}
+
+.detailsInfo h2 {
+    margin-bottom: 30px;
+}
+
+.detailsInfo .price {
+    color: #8F55F8;
+    font-weight: bold;
+}
+
+.detailsInfo .introduce {
+    margin-bottom: 30px;
+}
+
+.number {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.number a {
+    width: 50px;
+    font-size: 34px;
+    line-height: 50px;
+    color: #000;
+    text-align: center;
+}
+
+.number input {
+    border: none;
+    outline: none;
+    line-height: 50px;
+    font-size: 34px;
+    text-align: center;
+    max-width: 120px;
+    background-color: transparent;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.like {
+    align-self: center;
+    width: 20px;
+}
+
+.addCart {
+    display: block;
+    background-color: #8F55F8;
+    color: #fff;
+    max-width: 300px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.model2 {
+    margin-top: 50px;
+}
+
+
+.model2Title a {
+    font-size: 24px;
+    padding: 0 30px;
+    color: #000;
+    line-height: 70px;
+    border-radius: 20px 20px 0 0;
+}
+
+.model2Title a.active {
+    font-weight: bold;
+    background-color: #F3DFE6;
+}
+
+.model2Title a:hover {
+    background-color: #F3DFE6;
+}
+
+.model2Content {
+    background-color: #F3DFE6;
+    padding: 50px 20px;
+    border-radius: 0 10px 10px 10px;
+}
+
+.model2ContentItem ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.model3 {
+    margin-top: 50px;
+    border: 5px solid #a992d7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.evaluateLeft .stars {
+    margin: 0 20px;
+}
+
+.evaluateLeft span {
+    font-size: 34px;
+    font-family: 'Roboto-Bold';
+    margin-bottom: -15px;
+    margin-right: 20px;
+}
+
+.evaluateRight {
+    padding: 0 30px;
+    background-color: #8F55F8;
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.model3Time {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.model3Time p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.model3Content {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.model3Content img {
+    width: 300px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+.down {
+    width: 30px;
+}
+
+.model5 {
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.model5 p {
+    font-size: 24px;
+    transform: rotate(-90deg);
+    color: #8F55F8;
+}
+
+.model5 img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.model5>div {
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width:550px) {
+    .detailsImg {
+        max-width: 50%;
+    }
+
+    .number {
+        width: 100px;
+    }
+
+    .number a {
+        width: 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .number input {
+        width: 20px;
+        font-size: 20px;
+        flex: 1;
+    }
+
+    .addCart {
+        max-width: 100px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media (min-width:550px) and (max-width:912px) {
+    .detailsImg {
+        max-width: 30%;
+        margin: 0 auto;
+    }
+
+    .number {
+        margin-right: 10px;
+    }
+
+    .model4Item {
+        width: 45%;
+    }
+
+
+    .detailsInfo h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+}

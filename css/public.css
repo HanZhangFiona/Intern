@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'Lalezar';
+    src: url('../fonts/Lalezar-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold-3.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../fonts/Roboto-Thin-15.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif, Verdana, Geneva, Tahoma, '微软字体';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.w {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-ju-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    background-color: #D9D9D9;
+    width: 600px;
+    line-height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.search input {
+    flex: 1;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    line-height: 40px;
+}
+
+.userBtns a {
+    margin-left: 30px;
+}
+
+.nav {
+    background-color: #a992d7;
+    line-height: 75px;
+}
+
+.nav a {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.subHeader {
+    background-color: #a992d7;
+    padding: 10px;
+}
+
+.subHeader img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.subHeaderLeft a {
+    margin-right: 10px;
+}
+
+.subHeaderRight a {
+    margin-left: 10px;
+}
+
+.subHeader img.subLogo {
+    width: 60px;
+    height: 60px;
+}
+
+.title1 {
+    color: #a992d7;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.title2 {
+    text-align: center;
+    width: 600px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #a992d7;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+
+.footer {
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #a992d7;
+}
+
+.footer a {
+    line-height: 40px;
+    font-weight: bold;
+    color: #a992d7;
+}
+
+.icons {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.problem {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transition: .3s ease;
+}
+
+.problem:hover {
+
+    transform: translateY(-10px);
+}
+
+
+
+.subscribe {
+    text-align: center;
+    color: #a992d7;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.email {
+    background-color: #D9D9D9;
+    color: #a992d7;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 24px;
+    padding: 0 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.email input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.breadcrumbs {
+    max-width: 1200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.breadcrumbs a,
+.breadcrumbs span {
+    color: #000;
+    font-weight: bold;
+}
+
+.breadcrumbs a:hover {
+    color: #a992d7;
+}
+
+
+
+
+
+
+.recommend {
+    margin-top: 100px;
+}
+
+.recommendTitle {
+    font-family: 'Roboto-Bold';
+    font-size: 34px;
+}
+
+.recommendList {
+    margin-top: 30px;
+}
+
+.recommendItem {
+    overflow: hidden;
+    width: 30%;
+}
+
+.recommendItemImg {
+    position: relative;
+}
+
+.recommendItemImg>img {
+    display: block;
+    max-width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.recommendItemImg .like {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.recommend .goodsInfo {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.recommend .goodsInfo span {
+    font-weight: bold;
+}
+
+.goodsPrice {
+    color: #8F55F8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.like {
+    width: 20px;
+}
+
+@media (max-width:912px) {
+    .w {
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+
+    .recommendItem {
+        width: 45%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .subscribe {
+        font-size: 18px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .email {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media (min-width:913px) {
+    .subHeader {
+        display: none;
+    }
+
+    .hide-s {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+
+
+.model1 h1 {
+    text-align: center;
+    line-height: 300px;
+}
+
+.model1 .model1Btn {
+    display: block;
+    width: fit-content;
+    background-color: #8F55F8;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+@media (max-width:912px) {
+    .hide {
+        display: none;
+    }
+}

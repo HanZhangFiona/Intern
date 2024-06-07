@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/orderSummary.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="top flex-b w">
+            <a href="index.html" class="logo">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div class="search flex-b">
+                <input type="text" placeholder="Cat food">
+                <a href="catsFood.html"><img src="./images/searching.png" alt=""></a>
+            </div>
+            <div class="flex userBtns">
+                <a href="shoppingCart.html" class="cart"><img src="./images/shoppingCart.png" alt=""></a>
+                <a href="javascript:;" class="like"><img src="./images/wishList.png" alt="" data-img="0"></a>
+                <a href="#" class="user"><img src="./images/user.png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="w flex">
+                <a href="#">All Products</a>
+                <a href="#">Cats</a>
+                <a href="#">Dogs</a>
+                <a href="#">Other Animals</a>
+                <a href="#">Sale</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="subHeader flex-b w">
+        <div class="flex-b subHeaderLeft">
+            <a href="#"><img src="./images/more.png" alt=""></a>
+            <a href="#"><img src="./images/search.png" alt=""></a>
+        </div>
+        <a href="index.html">
+            <img src="./images/logo2.png" alt="" class="subLogo">
+        </a>
+        <div class="flex-b subHeaderRight">
+            <a href="#"><img src="./images/user2.png" alt=""></a>
+            <a href="#"><img src="./images/shoppingCart2.png" alt=""></a>
+        </div>
+    </div>
+
+
+    <div class="breadcrumbs">
+        <a href="index.html">Home</a> > <span>Order Summary</span>
+    </div>
+
+
+    <div class="main w">
+        <div class="model1">
+            <h1>Order Summary</h1>
+            <div class="model1Content">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Items</td>
+                            <td>Numbers</td>
+                            <td>Price</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="flex-b">
+                                <img src="./images/shoppingCart3/1.png" alt="">
+                                <p><span>Hills</span> Indoor Kitten Dry Cat Food 3.17kg</p>
+                            </td>
+                            <td>
+                                <div class="number flex-b">
+                                    <a href="javascript:;" class="reduce1">-</a>
+                                    <input type="number" value="1" class="number1">
+                                    <a href="javascript:;" class="add1">+</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="flex-b">
+                                    <span class="price1">$69.99</span>
+                                    <a href="#"><img src="./images/wishList.png" alt="" class="like" data-img="0"></a>
+                                    <a href="#"><img src="./images/del.png" alt=""></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="flex-b">
+                                <img src="./images/shoppingCart3/2.png" alt="" class="img2">
+                                <p><span>Hills</span> Perfect Weight Dry Cat Food 3.17kg</p>
+                            </td>
+                            <td>
+                                <div class="number flex-b">
+                                    <a href="javascript:;" class="reduce2">-</a>
+                                    <input type="number" value="1" class="number2">
+                                    <a href="javascript:;" class="add2">+</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="flex-b">
+                                    <span class="price2">$69.99</span>
+                                    <a href="#"><img src="./images/wishList.png" alt="" class="like" data-img="0"></a>
+                                    <a href="#"><img src="./images/del.png" alt=""></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><input type="text" placeholder="Discount code or gift card" class="codeCard"></td>
+                        <td><a href="#" class="active">Apply</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Subtotal:</td>
+                        <td class="subtotal">$139.98</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Shipping:</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total:</td>
+                        <td class="total">$139.98</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="model2">
+            <h1>Express Checkout</h1>
+            <div class="flex">
+                <a href="#"><img src="./images/orderSummary/pay1.png" alt=""></a>
+                <a href="#"><img src="./images/orderSummary/pay2.png" alt=""></a>
+                <a href="#"><img src="./images/orderSummary/pay3.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="model3">
+            <div class="model3Title">
+                <p class="or">Or</p>
+            </div>
+
+            <p>Contact</p>
+            <input type="text" placeholder="Email:">
+            <!-- <input type="text" placeholder=""> -->
+            <p>Delivery</p>
+            <input type="text" placeholder="Name:">
+            <p>Delivery</p>
+            <input type="text" placeholder="Address:">
+            <div class="inputBox flex-b">
+                <div><input type="text" placeholder="City:"></div>
+                <div>
+                    <select name="" id="">
+                        <option value="">State:</option>
+                    </select>
+                </div>
+                <div><input type="text" placeholder="Postcode:"></div>
+            </div>
+            <input type="text" placeholder="Phone:">
+            <p>Payment</p>
+            <input type="text" placeholder="Card number:">
+            <input type="text" placeholder="Expiration date (MM/YY):">
+            <input type="text" placeholder="Security code (CVC):">
+            <input type="text" placeholder="Name on card:">
+            <p>Remember me</p>
+            <div class="remember">
+                <input type="checkbox" name="" id=""> Save the card information
+            </div>
+            <div class="flex-b total">
+                <span>Total:</span>
+                <span class="total2">$69.99</span>
+            </div>
+            <a href="orderConfirmation.html" class="payNow">Pay Now</a>
+        </div>
+
+        <div class="recommend">
+            <h2 class="recommendTitle">
+                You May Also Like...
+            </h2>
+            <div class="flex-ju-b recommendList">
+                <div class="recommendItem">
+                    <div class="recommendItemImg">
+                        <img src="./images/shoppingCart/img1.png" alt="">
+                        <a href="javascript:;" class="like"><img src="./images/wishList.png" alt="" data-img="0"></a>
+                    </div>
+                    <p class="goodsInfo"><span>Hills </span>Indoor 7+Dry Cat Food 3.17kg</p>
+                    <div class="flex-b goodsPrice">
+                        <span>$69.99</span>
+                    </div>
+                </div>
+
+                <div class="recommendItem">
+                    <div class="recommendItemImg">
+                        <img src="./images/shoppingCart/img2.png" alt="">
+                        <a href="javascript:;" class="like"><img src="./images/wishList.png" alt="" data-img="0"></a>
+                    </div>
+                    <p class="goodsInfo"><span>Hills </span>Urinary Hairball Control Dry Cat Food</p>
+                    <div class="flex-b goodsPrice">
+                        <span>$41.99-71.99</span>
+                    </div>
+                </div>
+
+                <div class="recommendItem hide">
+                    <div class="recommendItemImg">
+                        <img src="./images/shoppingCart/img3.png" alt="">
+                        <a href="javascript:;" class="like"><img src="./images/wishList.png" alt="" data-img="0"></a>
+                    </div>
+                    <p class="goodsInfo"><span>Hills </span>Science Diet Indoor Dry Cat Food</p>
+                    <div class="flex-b goodsPrice">
+                        <span>$59.99-82.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <p>Subscribe and get 5% off of your first order</p>
+        <div class="email flex">
+            <span>Email:</span>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="footer flex-c">
+        <a href="#">Info</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="#">Shipping Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Refund Policy</a>
+        <div class="flex-b icons">
+            <a href="#"><img src="./images/twitter.png" alt=""></a>
+            <a href="#"><img src="./images/instagram.png" alt=""></a>
+            <a href="#"><img src="./images/facebook.png" alt=""></a>
+        </div>
+    </div>
+
+    <a href="#" class="problem"><img src="./images/Help.png" alt=""></a>
+
+    <script src="./js/orderSummary.js"></script>
+    
+</body>
+
+</html>
